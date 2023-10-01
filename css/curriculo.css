@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lora', serif;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+.container .left_Side {
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+img {
+    height: 250px;
+}
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(255,255,255,0.2);
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.contato {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contato ul {
+    position: relative;
+}
+
+.contato ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contato ul li .icones {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contato ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contato.educacao li {
+    margin-bottom: 15px;
+}
+
+.contato.educacao h5 {
+    color:  #03a9f4;
+    font-weight: 500;
+}
+
+.contato.educacao h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contato.educacao h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .right_Side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
